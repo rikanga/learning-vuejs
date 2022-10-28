@@ -2,27 +2,32 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div id='app'>
-    <nav>
+    <!-- <nav>
       <HomeLink/>
       <a href='/about'>A propos</a>
       <a href='/contact'>Contact</a>
     </nav>
     <p>
       Bienvenue sur notre page d'<HomeLink/>
-    </p>
+    </p> -->
+    <NavLink url='/'  text='Accueil'/>
+    <NavLink url='/about' text='A propos'/>
+    <NavLink url='/contact' text='Contact'/>
   </div>
   
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import HomeLink from './components/HomeLink.vue';
+// import HomeLink from './components/HomeLink.vue';
+import NavLink from './components/NavLink.vue';
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
-    HomeLink,
+    // HomeLink,
+    'NavLink':NavLink,
   }
 }
 </script>
@@ -37,7 +42,7 @@ export default {
   margin-top: 60px;
 }
 
-a{
-  margin:5px;
-}
+//a{
+//  margin:5px;
+//}
 </style>
