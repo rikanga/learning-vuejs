@@ -29,4 +29,8 @@ nav {
     }
   }
 }
+router-view{
+  text-align:center;
+  margin:20%;
+}
 </style>
