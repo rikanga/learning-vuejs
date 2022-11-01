@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/link/bidon">Produits</router-link> |
-    <router-link to="/todo">ToDo</router-link>
+    <router-link to="/todo">ToDo</router-link> |
+    <router-link to="/custom">Customization</router-link>
   </nav>
   <router-view/>
 </template>

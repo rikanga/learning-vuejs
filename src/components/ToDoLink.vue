@@ -52,9 +52,6 @@
             }
         },
         methods:{
-            emitCustomEvent(){
-                this.$emit('custom-event-name', {message:'Mon message personnalisé'})
-            },
             changeVisibility(){
                 console.log('Change it ...');
                 this.visible = !this.visible;

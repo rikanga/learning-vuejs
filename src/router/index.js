@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import NavView from '../views/NavView.vue'
 import AboutView from '../views/AboutView.vue'
 import ToDo from '../views/ToDo.vue'
+import CustomEventView from '../views/CustomEventView'
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
     path:'/todo',
     name:'todo',
     component:ToDo
+  },
+  {
+    path:'/custom',
+    name:'customazer',
+    component: CustomEventView
   }
 ]
 
