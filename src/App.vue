@@ -4,9 +4,10 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/link/bidon">Produits</router-link> |
     <router-link to="/todo">ToDo</router-link> |
-    <router-link to="/custom">Customization</router-link>
+    <router-link to="/custom">Customization</router-link> |
+    <router-link to="/slot">Slot</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
@@ -30,8 +31,8 @@ nav {
     }
   }
 }
-router-view{
-  text-align:center;
-  margin:20%;
+router-view {
+  text-align: center;
+  margin: 20%;
 }
 </style>

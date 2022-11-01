@@ -4,6 +4,7 @@ import NavView from '../views/NavView.vue'
 import AboutView from '../views/AboutView.vue'
 import ToDo from '../views/ToDo.vue'
 import CustomEventView from '../views/CustomEventView'
+import CustomBannerView from '../views/CustomBannerView.vue'
 
 const routes = [
   {
@@ -34,6 +35,11 @@ const routes = [
     path:'/custom',
     name:'customazer',
     component: CustomEventView
+  },
+  {
+    path:'/slot',
+    name:'slot',
+    component:CustomBannerView
   }
 ]
 

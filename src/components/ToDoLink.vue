@@ -135,7 +135,7 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang='scss'>
     td{
         border: 1px solid silver;
         padding:10px;
