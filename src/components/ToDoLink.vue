@@ -1,4 +1,5 @@
 <template>
+    <title>ToDo</title>
     <div id='todo'>
         <h1> ToDo </h1>
 
